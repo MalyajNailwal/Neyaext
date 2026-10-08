@@ -28,6 +28,6 @@ Account and usage information is stored with Turso. Vercel hosts the studio and 
 
 Account and usage records remain in the service until removed by the operator; the application currently has no automatic deletion schedule or self-service account deletion. Hosting logs, backups, and third-party processing follow the relevant provider's retention settings and policies.
 
-You can stop a try-on, revoke camera permission in your browser, sign out, clear site data, or uninstall the extension. These actions do not automatically delete account records held by the studio. To request account deletion or ask a privacy question, use the [maintainer's GitHub profile](https://github.com/MalyajNailwal) or [open a support request](https://github.com/MalyajNailwal/neya-extension/issues) asking for a private follow-up channel. Do not include account identifiers or sensitive data in a public issue.
+You can stop a try-on, revoke camera permission in your browser, sign out, clear site data, or uninstall the extension. These actions do not automatically delete account records held by the studio. To request account deletion or ask a privacy question, use the [maintainer's GitHub profile](https://github.com/MalyajNailwal) or [open a support request](https://github.com/MalyajNailwal/Neyaext/issues) asking for a private follow-up channel. Do not include account identifiers or sensitive data in a public issue.
 
 Changes to these practices will be reflected in this policy and its updated date.

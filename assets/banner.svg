@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 580" role="img" aria-labelledby="title desc">
+  <title id="title">Neya — the fitting room, everywhere</title>
+  <desc id="desc">An illustration of shopping with Neya: a clothing photo is selected in a store window and sent to a live mirror. Dark olive, warm white, and lime green.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#d7fa87" stroke-opacity=".045"/></pattern>
+    <linearGradient id="room" x2="0" y2="1"><stop stop-color="#dddcc9"/><stop offset="1" stop-color="#afb69b"/></linearGradient>
+  </defs>
+  <rect width="1280" height="580" rx="24" fill="#151a14"/>
+  <rect width="1280" height="580" rx="24" fill="url(#grid)"/>
+  <circle cx="1160" cy="100" r="240" fill="none" stroke="#d7fa87" stroke-opacity=".1"/>
+  <circle cx="1160" cy="100" r="200" fill="none" stroke="#d7fa87" stroke-opacity=".07"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="58" y="64" fill="#d7fa87" font-size="13" font-weight="700" letter-spacing="3">THE FITTING ROOM, EVERYWHERE.</text>
+    <text x="56" y="181" fill="#f4f5ed" font-size="76" font-weight="700" letter-spacing="-4">Find your</text>
+    <text x="56" y="267" fill="#d7fa87" font-family="Georgia, serif" font-style="italic" font-size="84" letter-spacing="-3">next look.</text>
+    <text x="60" y="322" fill="#b5bfaa" font-size="20">From a store photo to your live mirror.</text>
+    <text x="60" y="352" fill="#b5bfaa" font-size="20">All from the browser you already use.</text>
+    <rect x="58" y="395" width="174" height="48" rx="24" fill="#d7fa87"/>
+    <text x="86" y="425" fill="#18230f" font-size="15" font-weight="700">SEE IT. WEAR IT.</text>
+    <text x="60" y="516" fill="#78846f" font-size="12" letter-spacing="2">01 BROWSE</text>
+    <path d="M166 512h34" stroke="#526047"/>
+    <text x="217" y="516" fill="#78846f" font-size="12" letter-spacing="2">02 PICK</text>
+    <path d="M295 512h34" stroke="#526047"/>
+    <text x="346" y="516" fill="#d7fa87" font-size="12" letter-spacing="2">03 TRY ON</text>
+    <rect x="632" y="95" width="336" height="368" rx="18" fill="#10150e" stroke="#5c6950"/>
+    <path d="M650 135h298" stroke="#35412d"/>
+    <circle cx="653" cy="116" r="3" fill="#6d785f"/><circle cx="665" cy="116" r="3" fill="#6d785f"/><circle cx="677" cy="116" r="3" fill="#6d785f"/>
+    <text x="701" y="120" fill="#839075" font-size="10" letter-spacing="1">YOUR FAVORITE STORE</text>
+    <rect x="651" y="154" width="224" height="232" rx="6" fill="#e9e8dc" stroke="#d7fa87" stroke-width="3"/>
+    <path d="m728 199-37 19-17 46 30 11 14-30v99h90v-99l14 30 30-11-17-46-37-19-19 19h-32Z" fill="#546444" stroke="#34432a" stroke-width="3"/>
+    <path d="m746 201 17 25 16-25m-16 25v118m-36-70h24m22 0h24" fill="none" stroke="#b6c69f" stroke-width="2"/>
+    <circle cx="763" cy="244" r="2" fill="#d7fa87"/><circle cx="763" cy="266" r="2" fill="#d7fa87"/><circle cx="763" cy="288" r="2" fill="#d7fa87"/>
+    <rect x="663" y="166" width="92" height="24" rx="12" fill="#d7fa87"/>
+    <text x="676" y="182" fill="#18230f" font-size="10" font-weight="700">✓ SELECTED</text>
+    <text x="654" y="414" fill="#f4f5ed" font-size="17" font-weight="700">The everyday layer</text>
+    <text x="654" y="437" fill="#87947a" font-size="12">One photo. A whole new possibility.</text>
+    <rect x="887" y="76" width="270" height="425" rx="22" fill="#242d1d" stroke="#8b9f75"/>
+    <text x="909" y="107" fill="#d7fa87" font-size="12" font-weight="700" letter-spacing="2">NEYA / LIVE MIRROR</text>
+    <rect x="902" y="122" width="240" height="303" rx="12" fill="url(#room)"/>
+    <path d="M915 425v-73a106 106 0 0 1 212 0v73" fill="#546444"/>
+    <path d="m988 292 34 38 34-38m-34 38v95" fill="none" stroke="#b6c69f" stroke-width="3"/>
+    <path d="M1004 276v31q18 19 36 0v-31" fill="#b78362"/>
+    <ellipse cx="1022" cy="237" rx="44" ry="57" fill="#c89977"/>
+    <path d="M978 242q-15-74 40-72 62-3 49 73l-17-48q-17 30-65 17Z" fill="#303628"/>
+    <path d="M1010 263q12 7 24-1" fill="none" stroke="#855d44" stroke-width="2" stroke-linecap="round"/>
+    <path d="M917 144h20m-20 0v20m208-20h-20m20 0v20M917 406h20m-20 0v-20m208 20h-20m20 0v-20" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="2"/>
+    <rect x="909" y="443" width="165" height="38" rx="19" fill="#d7fa87"/>
+    <text x="951" y="467" fill="#18230f" font-size="13" font-weight="700">Try on live ↗</text>
+    <circle cx="1104" cy="462" r="18" fill="none" stroke="#7d8c6d"/><circle cx="1104" cy="462" r="6" fill="#d7fa87"/>
+    <text x="910" y="533" fill="#78846f" font-size="10" letter-spacing="1.5">ILLUSTRATED WORKFLOW · NOT A TRY-ON RESULT</text>
+  </g>
+</svg>

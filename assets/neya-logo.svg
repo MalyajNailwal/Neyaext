@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 188" role="img" aria-labelledby="title desc">
+  <title id="title">Neya</title>
+  <desc id="desc">Lime N monogram with a small sparkle, followed by the Neya wordmark.</desc>
+  <rect width="720" height="188" rx="32" fill="#151a14"/>
+  <rect x="28" y="28" width="132" height="132" rx="31" fill="#d7fa87"/>
+  <path d="M61 125V63h19l32 39V63h18v62h-18L79 84v41H61Z" fill="#18230f"/>
+  <path d="m130 42 3.2 8.8 8.8 3.2-8.8 3.2-3.2 8.8-3.2-8.8-8.8-3.2 8.8-3.2 3.2-8.8Z" fill="#18230f"/>
+  <text x="190" y="127" fill="#f4f5ed" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="800" letter-spacing="-7">NEYA</text>
+  <text x="194" y="153" fill="#a0a79b" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="4">SEE IT. WEAR IT.</text>
+</svg>

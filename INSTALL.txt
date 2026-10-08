@@ -1,0 +1,26 @@
+INSTALL NEYA
+
+1. Extract the downloaded ZIP. Do not select the ZIP itself in Chrome.
+2. Open chrome://extensions (or edge://extensions).
+3. Turn on Developer mode, then click Load unpacked.
+4. Select THIS folder: manifest.json must be directly inside it.
+
+Expected folder contents:
+  manifest.json
+  background.js
+  content.js
+  popup.html
+  sidepanel.html
+  icons/
+
+If Chrome says "Manifest file is missing or unreadable", go one level
+inside the extracted folder until you see manifest.json, then select
+that folder. Don't select Downloads or the outer containing folder.
+
+For updates, replace files in your existing extension folder, reload
+Neya from the extensions page, then refresh the shopping tab.
+
+Official download:
+https://github.com/MalyajNailwal/Neyaext/releases/latest/download/neya-extension.zip
+
+Guide and support: https://github.com/MalyajNailwal/Neyaext

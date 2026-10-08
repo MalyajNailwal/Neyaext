@@ -21,12 +21,22 @@ jobs:
           set -euo pipefail
           VERSION=${RELEASE_TAG#ext-v}
           export VERSION
-          node -e 'const m=require("./extension/manifest.json"); if (!/^\d+\.\d+\.\d+$/.test(process.env.VERSION) || m.version !== process.env.VERSION) throw new Error("Tag and manifest versions must match")'
-          cd extension
-          zip -r "../neya-extension-$VERSION.zip" .
+          python3 .github/scripts/package-extension.py . "neya-extension-$VERSION.zip" --version "$VERSION"
+          cp "neya-extension-$VERSION.zip" neya-extension.zip
       - name: Publish public download
         env:
           GH_TOKEN: ${{ github.token }}
           RELEASE_TAG: ${{ github.ref_name }}
         run: |
-          gh release create "$RELEASE_TAG" "neya-extension-${RELEASE_TAG#ext-v}.zip" --title "$RELEASE_TAG" --generate-notes
+          cat > release-notes.md <<'NOTES'
+          ## Install Neya
+
+          Download **neya-extension.zip** below and extract it. Open chrome://extensions, enable Developer mode, choose Load unpacked, and select the extracted folder that directly contains manifest.json.
+
+          To update, replace the contents of your existing extension folder, reload Neya, and refresh your shopping tabs.
+
+          The ZIP is checked for a root manifest and all required extension files before publication. The repository source archive also has its manifest at the root of the extracted repository folder.
+
+          [Installation guide](https://github.com/MalyajNailwal/Neyaext#install-in-a-minute) · [Privacy policy](https://github.com/MalyajNailwal/Neyaext/blob/main/PRIVACY.md)
+          NOTES
+          gh release create "$RELEASE_TAG" "neya-extension-${RELEASE_TAG#ext-v}.zip" neya-extension.zip --title "Neya ${RELEASE_TAG#ext-v}" --notes-file release-notes.md
