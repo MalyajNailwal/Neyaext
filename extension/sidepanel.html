@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI Try-On Browser</title><link rel="stylesheet" href="sidepanel.css"></head>
+<body>
+  <main class="workspace">
+    <header><img class="mark" src="icons/icon-48.png" alt="Neya" width="34" height="34"><div><small>NEYA</small><strong>Browse & try</strong></div><span class="live-dot"></span><button id="close-panel" type="button" aria-label="Close Try-On side panel" title="Close Try-On side panel">×</button></header>
+    <form id="shop-form"><label for="shop-search">Search stores or enter a URL</label><div class="search-row"><input id="shop-search" type="text" placeholder="Try “oversized green jacket”" autocomplete="off"><button type="submit" aria-label="Go">↗</button></div></form>
+    <p class="tip">Shop in this window. On a clothing product page, <b>tap the garment photo</b> to try it on live.</p>
+    <iframe id="studio" title="Live Try-On Studio" allow="camera; autoplay" referrerpolicy="no-referrer"></iframe>
+    <footer>
+      <span id="status">Studio loading…</span>
+      <div class="footer-actions">
+        <button id="toggle-full" type="button" aria-label="Expand studio to full screen" title="Full screen">⛶</button>
+        <button id="open-full">Live mirror ↗</button>
+      </div>
+    </footer>
+  </main>
+  <script src="sidepanel.js"></script>
+</body>
+</html>

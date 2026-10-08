@@ -1,0 +1,32 @@
+name: Release Extension
+
+on:
+  push:
+    tags: ['ext-v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Validate version and package extension
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          VERSION=${RELEASE_TAG#ext-v}
+          export VERSION
+          node -e 'const m=require("./extension/manifest.json"); if (!/^\d+\.\d+\.\d+$/.test(process.env.VERSION) || m.version !== process.env.VERSION) throw new Error("Tag and manifest versions must match")'
+          cd extension
+          zip -r "../neya-extension-$VERSION.zip" .
+      - name: Publish public download
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          gh release create "$RELEASE_TAG" "neya-extension-${RELEASE_TAG#ext-v}.zip" --title "$RELEASE_TAG" --generate-notes
