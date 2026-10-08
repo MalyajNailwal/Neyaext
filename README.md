@@ -29,6 +29,16 @@
   <img src="assets/banner.svg" alt="Neya illustrated workflow: browse a store, select a garment, and open your live fitting room" width="100%">
 </p>
 
+## Our first user, trying Neya
+
+A real walkthrough shared by our first user: choosing a jacket on H&M, opening the Neya mirror, and seeing the live try-on. Thank you for taking Neya on its first shopping trip.
+
+[![Watch our first user try Neya — real footage, 57 seconds](assets/neya-first-user-poster.png)](https://neya-eight.vercel.app/media/neya-first-user.mp4)
+
+**[▶ Watch the real user walkthrough · 0:57](https://neya-eight.vercel.app/media/neya-first-user.mp4)** · [Watch on the website](https://neya-eight.vercel.app/#watch-demo)
+
+This is user-submitted app footage, not an animated preview. The recording is presented with a Neya border and compressed for playback; the try-on result has not been retouched. Individual results vary. H&M is the store shown in the recording; no affiliation or endorsement is implied.
+
 ## Meet Neya
 
 Neya is a browser extension for live AI clothing try-ons. Browse a clothing store, choose a garment photo, and open the live mirror to preview the look on your camera.
